@@ -1,0 +1,135 @@
+body {
+  background-color: rgba(6, 13, 49);
+  display: grid;
+  place-items: center;
+  min-height: 150px;
+  min-width: 380px;
+  height: fit-content;
+  margin: none;
+  position: relative;
+  width: 90%;
+}
+.boxmain {
+  position: relative;
+  text-align: center;
+  place-items: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.box {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  float: left;
+  top: 50%;
+}
+#inbox1 {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+#inbox2 {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+#inbox3 {
+  margin-right: 10px;
+}
+#inbox4 {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+#inbox5 {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+#inbox6 {
+  margin-right: 10px;
+}
+#inbox7 {
+  margin-bottom: 10px;
+}
+#inbox8 {
+  margin-bottom: 10px;
+}
+
+.inbox {
+  z-index: 2;
+  width: 13vh;
+  height: 13vh;
+
+  border-radius: 10px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+.thefront {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #b5e6fd;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'zilla slub', sans-serif;
+  z-index: 3;
+}
+.theback {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color: rgb(255, 251, 251);
+  background: rgb(134, 219, 240);
+  transform: rotateY(180deg);
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'zilla slub', sans-serif;
+  z-index: 4;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.score {
+  color: aliceblue;
+  text-align: left;
+  display: inline;
+  position: relative;
+}
+.turn {
+  color: aliceblue;
+  text-align: left;
+  display: inline;
+  position: relative;
+  font-family: Andale Mono, monospace;
+  font-size: 40px;
+}
+h1 {
+  display: inline;
+  text-align: left;
+  font-family: Andale Mono, monospace;
+  font-size: 40px;
+}
+p {
+  display: inline;
+  font-family: Andale Mono, monospace;
+  font-size: 40px;
+}
+#nowplays {
+  font-family: Andale Mono, monospace;
+  font-size: 40px;
+}
+.wrapper {
+  position: relative;
+  text-align: center;
+  place-items: center;
+  width: fit-content;
+  height: fit-content;
+  min-width: 100%;
+}
