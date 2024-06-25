@@ -124,7 +124,7 @@ for (let i = 0; i < 9; i++) {
     if (usedTable.length >= 9 && w === 0) {
       console.log('draw');
       nowPlays.setAttribute('hidden', '');
-      winningText.innerHTML = 'draw';
+      winningText.innerHTML = 'drawe';
       gameReset(1000);
     }
   });
